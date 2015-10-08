@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: MRazz-DesktopUS
- * Date: 07-10-2015
- * Time: 03:24
- */
+
 include_once('config.php');
 $target_dir = "uploads/";
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
